@@ -24,8 +24,8 @@ import random
 #    "guess" : Guess The Act Game
 #    "never" : Never Have I Ever Game
 
-GAME_CHOICE = "guess"
-# GAME_CHOICE = "never"
+# GAME_CHOICE = "guess"
+GAME_CHOICE = "never"
 
 used_phrases = []
 used_statements = []
@@ -142,69 +142,43 @@ def guess_the_act_game():
 def never_have_i_ever_game():
     print("=== Never Have I Ever (Drinking Edition) ===")
     statements = [
-        "Never have I ever taken a shot of someone else's drink.",
-        "Never have I ever danced on a table in public.",
-        "Never have I ever started a bar fight.",
-        "Never have I ever drunk dialed my boss.",
-        "Never have I ever lost my phone during a night out.",
-        "Never have I ever drunk so much I forgot my own name.",
-        "Never have I ever made a scene at a club.",
-        "Never have I ever peed in a public place.",
-        "Never have I ever ended up in a stranger's bed after a party.",
-        "Never have I ever fallen asleep at a bar.",
-        "Never have I ever spilled a drink on someone important.",
-        "Never have I ever sung karaoke while intoxicated.",
-        "Never have I ever flirted with a bartender.",
-        "Never have I ever been kicked out of a bar.",
-        "Never have I ever tried to drive after drinking.",
-        "Never have I ever woken up with a hangover that lasted a day.",
-        "Never have I ever lost my wallet at a party.",
-        "Never have I ever had a drinking contest with a stranger.",
-        "Never have I ever mistaken someone for a friend while drunk.",
-        "Never have I ever drunk a milkshake at a bar.",
-        "Never have I ever ended up in a viral video from a party.",
-        "Never have I ever taken a selfie in the middle of a bar fight.",
-        "Never have I ever had my drink spiked without knowing.",
-        "Never have I ever met a celebrity",
-        "Never have I ever tried to impersonate a famous singer after a few drinks.",
-        "Never have I ever shouted embarrassing secrets while intoxicated.",
-        "Never have I ever had a drink named after me.",
-        "Never have I ever forgotten a friend's name after drinking.",
-        "Never have I ever tried a bizarre cocktail on a dare.",
-        "Never have I ever woken up in a different city than expected.",
-        "Never have I ever danced on a car after drinking.",
-        "Never have I ever lost my shoes at a club.",
-        "Never have I ever spent more money on drinks than on food.",
-        "Never have I ever made a fool of myself on a video call while drunk.",
-        "Never have I ever pretended to know the lyrics to a song.",
-        "Never have I ever lied about my age to get into a club.",
-        "Never have I ever shared a drink with a stranger.",
-        "Never have I ever sung a love song to a complete stranger.",
-        "Never have I ever been too drunk to pay my tab.",
-        "Never have I ever tried to impress someone with my drink order.",
-        "Never have I ever ended a night by singing in the rain.",
-        "Never have I ever had a drink named after a movie star.",
-        "Never have I ever accidentally drunk a non-alcoholic beverage thinking it was alcoholic.",
-        "Never have I ever forgotten where I parked because of a wild night.",
-        "Never have I ever made plans while drunk that I regretted the next day.",
-        "Never have I ever danced until the lights came on.",
-        "Never have I ever woken up at a friend's house without a memory of the previous night.",
-        "Never have I ever laughed so hard I couldn't remember my drink.",
-        "Never have I ever had a deep conversation with a stranger over drinks.",
-        "Never have I ever tried to flirt using a cheesy pickup line while drunk.",
-        "Never have I ever woken up in a bar bathroom.",
-        "Never have I ever lost track of time during a drinking game.",
-        "Never have I ever started a conga line in the middle of the night.",
-        "Never have I ever been the designated storyteller at a party.",
-        "Never have I ever pretended to be sober just to get a free drink.",
-        "Never have I ever made a toast that went viral on social media.",
-        "Never have I ever danced with a stranger until sunrise.",
-        "Never have I ever tried to outdrink a friend",
+        "Never have I ever swiped someone else’s Kingfisher.",
+        "Never have I ever busted out a Bollywood dance move on a table.",
+        "Never have I ever kicked off a full-on gully fight.",
+        "Never have I ever drunk dialed my aunty.",
+        "Never have I ever lost my phone.",
+        "Never have I ever drunk so much I started calling myself some weird name.",
+        "Never have I ever been part of a filmy drama.",
+        "Never have I ever relieved myself in public.",
+        "Never have I ever ended up on a random cot at a wedding.",
+        "Never have I ever dozed off at a roadside chai tapri.",
+        "Never have I ever spilled a drink on someone important",
+        "Never have I ever tried to drunk driving",
+        "Never have I ever woken up with a hangover that lasted till evening",
+        "Never have I ever lost my wallet.",
+        "Never have I ever lost a eye contact battle.",
+        "Never have I ever mistaken a stranger for my friend.",
+        "Never have I ever ended up in a viral video",
+        "Never have I ever got mehendi on my hands",
+        "Never have I ever met a big Bollywood celeb.",
+        "Never have I ever mimicked a famous actor’s dialogue.",
+        "Never have I ever blacked out.",
+        "Never have I ever danced on a car.",
+        "Never have I ever lost my footwear at a wedding.",
+        "Never have I ever hopped on a video call with family still in middle of the party.",
+        "Never have I ever pretended to know the lyrics to 'Chaiyya Chaiyya' with confidence.",
+        "Never have I ever tried to impress the bartender with a cocktail order.",
+        "Never have I ever forgotten that I bought a vehicle to a place and forgot it and walked home.",
+        "Never have I ever made plans to get drunk.",
+        "Never have I ever danced until DJ stopped playing music.",
+        "Never have I ever been in more than 50 antakshari games.",
+        "Never have I ever pretended to be sober.",
+        "Never have I ever made a toast.",
+        "Never have I ever danced with a stranger with full confidence in someone's Barat.",
+        "Never have I ever tried to outdrink a friend.",
     ]
 
-    print(
-        "\nInstructions: Press Enter to get a 'Never have I ever' statement, or type 'q' to quit.\n"
-    )
+    print("\nPress Enter, or 'q'\n")
 
     while True:
         user_input = input("\n Enter / q \n").strip().lower()
