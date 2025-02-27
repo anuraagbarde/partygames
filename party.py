@@ -24,8 +24,8 @@ import random
 #    "guess" : Guess The Act Game
 #    "never" : Never Have I Ever Game
 
-# GAME_CHOICE = "guess"
-GAME_CHOICE = "never"
+GAME_CHOICE = "guess"
+# GAME_CHOICE = "never"
 
 used_phrases = []
 used_statements = []
